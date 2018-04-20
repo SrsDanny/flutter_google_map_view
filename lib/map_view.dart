@@ -175,4 +175,8 @@ class MapView {
     }
     return new Future.value("");
   }
+
+  void detachChannel() {
+    _channel.setMethodCallHandler(null);
+  }
 }
