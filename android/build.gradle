@@ -49,5 +49,5 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:27.1.1'
     compile 'org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.4-2'
-    compile 'com.google.android.gms:play-services-maps:11.+'
+    compile 'com.google.android.gms:play-services-maps:15.0.0'
 }
